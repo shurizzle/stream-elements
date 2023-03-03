@@ -1,0 +1,31 @@
+{
+  "name": "stream-elements",
+  "version": "1.0.0",
+  "description": "StreamElements Widget types",
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "lint": "eslint 'lib/**/*.{js,ts}'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shurizzle/stream-elements.git"
+  },
+  "keywords": [
+    "types"
+  ],
+  "author": "shurizzle <shura1991@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shurizzle/stream-elements/issues"
+  },
+  "homepage": "https://github.com/shurizzle/stream-elements#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.53.0",
+    "@typescript-eslint/parser": "^5.53.0",
+    "eslint": "^8.34.0",
+    "eslint-config-pretty-strict": "^8.1.2",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.4",
+    "typescript": "^4.9.5"
+  }
+}
